@@ -4,7 +4,7 @@ public class Computador extends Jogador {
 
     @Override
     public boolean parou() {
-        return this.getPontos()> 16;
+        return this.getPontos() >= 20;
         
     }
     

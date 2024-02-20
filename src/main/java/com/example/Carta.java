@@ -11,7 +11,11 @@ public class Carta {
     }
 
     public String imagePath(){
-        return "classic-cards/"+ numero + naipe + ".png";
+
+        String[] numeros = {"",
+         "Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"};
+
+        return "classic-cards/"+ numeros[numero] + naipe + ".png";
     }
 
     public int getNumero() {
